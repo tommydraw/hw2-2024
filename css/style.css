@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Verdana;
+    background-color: black;
+    color: white;
+    margin: 20px 20px 0px 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+    padding: 15px 15px 15px 15px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #0D0D0D;
+}
+
+p {
+    font-size: 24px;
+    padding: 10px 0px 0px 10px;
+}
+
+img {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-color: white;
+    border: 10px;
+    border-style: dashed;
+}
+
+div {
+    min-height: 125px;
+    height: auto;
+    position: auto;
+    padding: 20px 20px 20px 20px;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+}
+
+.introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2.0;
+}
+
+.red {
+    background-color: #ff0000;
+    text-align: right;
+    margin-left: 50px;
+    border-width: 0px 0px 2px 5px;
+}
+
+.blue {
+    background-color: #0000ff;
+    text-align: left;
+    margin-right: 50px;
+    border-width: 2px 5px 0px 0px;
+}
+
+.blue h2 {
+    color: #C4C4C4;
+}
+
+.blue p {
+    color: #C4C4C4;
+}
+
+.yellow {
+    background-color: #ffff00;
+    text-align: right;
+    margin-left: 50px;
+    border-width: 0px 0px 2px 5px;
+}
+
+.yellow p {
+    color: #707070;
+}
+
+.green {
+    background-color: #008500;
+    text-align: left;
+    margin-right: 50px;
+    border-width: 2px 5px 0px 0px;
+}
+
+footer {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 255, 1) 25%, rgba(0, 102, 255, 1) 70%, rgba(0, 0, 0, 1) 100%);
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+footer p {
+    text-align: right;
+    padding: 15px 15px 15px 0px;
+}
